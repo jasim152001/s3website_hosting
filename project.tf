@@ -19,6 +19,6 @@ resource "aws_s3_bucket_acl" "example_bucket_acl" {
   bucket = aws_s3_bucket.s3.id
   acl    = "public-read"
 }
-output "s3-website-url" {
+output "s3_website_url" {
   value = aws_s3_bucket_website_configuration.website.website_endpoint
 }
