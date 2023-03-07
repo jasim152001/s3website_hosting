@@ -7,8 +7,8 @@
             "Principal": "*",
             "Action": "s3:*",
             "Resource": [
-                "arn:aws:s3:::jekiasdfghjklasdfghgfd",
-                "arn:aws:s3:::jekiasdfghjklasdfghgfd/*"
+                "arn:aws:s3:::jasimpm152001bucket",
+                "arn:aws:s3:::jasimpm152001bucket/*"
             ]
         }
     ]
